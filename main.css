@@ -1,0 +1,54 @@
+.column {
+  width: 100px;
+  height: 100px;
+  margin: 0px;
+  border: 2px rgb(93, 76, 189) solid;
+  border-right: none;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+
+.row {
+  width: 400px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.marker {
+  width: 80px;
+  height: 80px;
+}
+#row-0-column-0 {
+  border-left: none;
+}
+#row-1-column-0 {
+  border-left: none;
+}
+#row-2-column-0 {
+  border-left: none;
+  border-bottom: none;
+}
+#row-2-column-1 {
+  border-bottom: none;
+}
+#row-2-column-2 {
+  border-bottom: none;
+}
+#winner-display {
+  display: none;
+  background-color: red;
+  color: white;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(206, 153, 153);
+}
+
+#reset-button {
+  margin-top: 10px;
+}
